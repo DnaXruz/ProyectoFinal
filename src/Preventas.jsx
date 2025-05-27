@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-function Preventas() {
+function Preventas({paginacion}) {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
@@ -8,6 +8,7 @@ function Preventas() {
       .then((response) => response.json())
       .then((data) => setProducts(data));
   }, []);
+
 
   return (
     <>

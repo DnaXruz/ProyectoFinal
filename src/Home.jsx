@@ -2,6 +2,7 @@ import React from 'react';
 import Hero from './Hero';
 import Preventas from './Preventas';
 import Footer from './Footer';
+import FeatureSection from './FeatureSection';
 
 function Home() {
   return (
@@ -30,6 +31,7 @@ function Home() {
     </div>
     <Hero/>
     <Preventas/>
+    <FeatureSection/>
     <Footer/>
     </>
   );

@@ -21,7 +21,7 @@ function App() {
       <Route path="Team" element={<TeamSection/>} />
       <Route path="About" element={<About/>} />
       <Route path="*" element={<NotFound/>} />
-      <Route path="product/:id" element={<ProductDescription />} />
+      <Route path="product/:id" element={<ProductDescription/>} />
       
       </Routes>
     </BrowserRouter>
