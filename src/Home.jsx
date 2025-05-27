@@ -6,7 +6,7 @@ import FeatureSection from './FeatureSection';
 function Home() {
   return (
     <>
-    <div className="lg:h-lvh h-500 flex flex-col justify-center items-center bg-cover bg-center px-6 py-16 sm:py-24 lg:px-8 bg-[url(./assets/img/portada3.jpg)] bg-fixed">
+    <div className="lg:h-lvh h-500 flex flex-col justify-center items-center bg-cover bg-center px-6 py-16 sm:py-24 lg:px-8 bg-[url(./assets/img/portada3.jpg)] bg-fixed md: h-dvh">
       <div className="text-center">
         <h1 className="text-4xl font-extrabold tracking-tight text-amber-100 sm:text-6xl text-shadow-lg">
           <span className="block">Descubre el placer de</span>
