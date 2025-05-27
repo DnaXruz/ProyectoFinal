@@ -46,8 +46,8 @@ function FeatureSection() {
             />
           </svg>
         </div>
-        <h3 className="text-3xl font-bold">Efficient</h3>
-        <p>Feel good about your wallet and the environment</p>
+        <h3 className="text-3xl font-bold">Eficiente</h3>
+        <p>Siéntete bien con tu billetera y el medio ambiente.</p>
       </div>
 
       {/* Item 3 */}
@@ -68,8 +68,8 @@ function FeatureSection() {
             />
           </svg>
         </div>
-        <h3 className="text-3xl font-bold">Proven</h3>
-        <p>Leading the Smart Home world for 10 years</p>
+        <h3 className="text-3xl font-bold">Probado</h3>
+        <p>Liderando el mundo del hogar inteligente durante 10 años</p>
       </div>
     </div>
     </>

@@ -1,7 +1,6 @@
 import React from 'react';
 import Hero from './Hero';
 import Preventas from './Preventas';
-import Footer from './Footer';
 import FeatureSection from './FeatureSection';
 
 function Home() {
@@ -32,7 +31,6 @@ function Home() {
     <Hero/>
     <Preventas/>
     <FeatureSection/>
-    <Footer/>
     </>
   );
 }

@@ -2,7 +2,7 @@ import './App.css'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import About from './About';
 import ContactUs from './ContactUs';
-import TeamSection from './TeamSection';
+import BranchesInMexico from './BranchesInMexico';
 import NotFound from './NotFound';
 import Catalogo from './Catalogo';
 import ProductDescription from './ProductDescription';
@@ -18,7 +18,7 @@ function App() {
       <Route path="/" element={<Home/>} />
       <Route path="Catalogo" element={<Catalogo/>} />
       <Route path="Contact" element={<ContactUs/>} />
-      <Route path="Team" element={<TeamSection/>} />
+      <Route path="Sucursales" element={<BranchesInMexico/>} />
       <Route path="About" element={<About/>} />
       <Route path="*" element={<NotFound/>} />
       <Route path="product/:id" element={<ProductDescription/>} />

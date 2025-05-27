@@ -2,8 +2,8 @@ import reactLogo from './assets/react.svg';
 
 var navigation = [{'title':"Nosotros",'href':"/About",'ComponentName':false},
     {'title':"Catalogo",'href':"/Catalogo",'ComponentName':false},
-    {'title':"Consumo API",'href':"/Team",'ComponentName':false},
-    {'title':"Recursos",'href':"/Contact",'ComponentName':false}];
+    {'title':"Sucursales",'href':"/Sucursales",'ComponentName':false},
+    {'title':"Contacto",'href':"/Contact",'ComponentName':false}];
 function Nav (){
     return (
 
